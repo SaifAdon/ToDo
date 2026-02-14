@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    background: rgb(59, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin:1.2rem;
+}
+.card{
+    height: 70vh;
+    min-width: 55vh;
+    background-color: black;
+    overflow: scroll;
+    
+}
+.todoinput{
+    padding: 0.3rem;
+    border-radius: .6rem;
+    margin-left:1rem ;
+    width: 65%;
+    font-size: 1rem;
+}
+.btn{
+    padding: 0.3rem;
+    border-radius: .6rem;
+    width: 30%;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
+    transition: all .3s;
+
+}
+.li-style:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+#deleteButton{
+      background-color: orange;
+    color: white;
+    border-radius: .6rem;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    cursor: pointer;
+    width: auto;  
+}
+.bg-success{
+    margin: .5rem 0;
+    padding: .5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+}
+.bg-denger{
+    margin: .5rem 0;
+    padding: .5rem;
+    color: black;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
